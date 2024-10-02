@@ -1,0 +1,125 @@
+.bag-items-container {
+    position: relative;
+    width: 63%;
+    display: flex;
+    border-right: 1px solid #eaeaec ;
+    font-size: 13px;
+   
+   } 
+  .item-right-part{
+    margin-top: 2%;
+   
+  
+  }
+  .delivery-date{
+    color: rgb(9, 163, 109);
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+  }
+ 
+  .image{
+    width: 80%;
+    margin-left: 16%;
+  }
+  
+  .bag-page {
+    width: 75%;
+    margin-left: 20%;
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+ .close-button{
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  border-radius: 40%;
+  transition: 0.2s ease-in;
+
+ }
+ .close-button:hover{
+  opacity: 0.7;
+  background-color: lightgray;
+ }
+ .place-order {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  border-width: 0px;
+  padding: 10px 16px;
+  /* background-color: rgb(255, 63, 108); */
+  background-color: rgb(103, 188, 103);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.bag-details-container {
+  margin-bottom: 16px;
+}
+.price-header {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 24px 0 16px;
+  color: #535766;
+}
+  
+  .bag-summary {
+    vertical-align: top;
+    display: inline-block;
+    width: 25%;
+    padding: 24px 0 0 16px;
+    color: #282c3f;
+    font-size: 13px;
+    line-height: 1.42857143;
+  }
+  .price-item {
+    margin-bottom: 12px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #282c3f;
+  }
+  .price-item-value {
+    float: right;
+  }
+
+  .discount-mrp{
+    margin-bottom: 12px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #282c3f;
+  }
+  .discount-amount{
+    float: right;
+  }
+
+
+  .delivery-fee{
+    margin-bottom: 12px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #282c3f;
+
+  }
+  .delivery-amount{
+    float: right;
+  }
+
+
+  .total-amount{
+    margin-bottom: 12px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #282c3f;
+
+  }
+  .amount-price{
+    float: right;
+  }
+  
